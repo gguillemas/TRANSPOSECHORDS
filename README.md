@@ -27,5 +27,6 @@ This function was developed for my own personal use and has some known limitatio
 - Does not transpose each chord in relation to the key, so chords may be notated as enharmonic equivalents.
 - Does not change the accidental when transposing from a key with sharps to a key with flats and vice versa.
 - Does not identify and process double accidentals such as double-sharps or double-flats.
+- Will fail if the input chords string contains both sharp and flat symbols (e.g. `Bb(#11)`).
 
 Note that most of those limitations do not affect the playability of the resulting chords, just the notational correction.
