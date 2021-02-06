@@ -4,7 +4,7 @@ TRANSPOSECHORDS is a Google Sheets function to transpose chord symbols by a numb
 
 ## Usage
 
-To use this function in your own sheets, follow the instructions [here](https://developers.google.com/apps-script/guides/sheets/functions#creating_a_custom_function) and copy the code in the `TRANSPOSECHORDS.gs` file.
+To use this function in your sheets, follow the instructions [here](https://developers.google.com/apps-script/guides/sheets/functions#creating_a_custom_function) and copy the code in the `TRANSPOSECHORDS.gs` file.
 
 ## Examples
 
