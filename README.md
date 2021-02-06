@@ -14,9 +14,10 @@ Formula | Output
 `=TRANSPOSECHORDS("C G Am F", -2)` | Bb F Gm Eb
 `=TRANSPOSECHORDS("C G Am F", 3)` | D# A# Cm G#
 `=TRANSPOSECHORDS("Gmaj7 Dm7 Cmaj7 Ebmaj7", 1)` | Abmaj7 Ebm7 Dbmaj7 Emaj7
-`=TRANSPOSECHORDS("G/B C Em Gmaj7/D", -1)` | Gb/Bb B Ebm Gbmaj7/Db *
+`=TRANSPOSECHORDS("G/B C Em Gmaj7/D", -1)` | Gb/Bb B<sup>1</sup> Ebm Gbmaj7/Db
+`=TRANSPOSECHORDS("Cm7 F13(b9) Bbmaj7 Fm9 Bb13", 2)` | Dm7 G13(b9) Cmaj7 Gm9 C13
 
-\* This is an example of the limitations described below, where `B` should be notated as `Cb`.
+<sup>1</sup> This is an example of the limitations described below, where `B` should be notated as `Cb`.
 
 ## Limitations
 
