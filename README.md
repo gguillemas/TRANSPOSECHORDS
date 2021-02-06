@@ -4,7 +4,7 @@ TRANSPOSECHORDS is a Google Sheets function to transpose chord symbols by a numb
 
 ## Usage
 
-To use this function in your own Google Sheets, follow the instructions [here](https://developers.google.com/apps-script/guides/sheets/functions#creating_a_custom_function) and copy the code in the `TRANSPOSECHORDS.gs` file.
+To use this function in your own sheets, follow the instructions [here](https://developers.google.com/apps-script/guides/sheets/functions#creating_a_custom_function) and copy the code in the `TRANSPOSECHORDS.gs` file.
 
 ## Examples
 
@@ -22,9 +22,9 @@ Formula | Output
 
 This function was developed for my own personal use and has some known limitations:
 
-- Does not attempt to guess the key, it will assume that no accidentals in the chords means no accidentals in the key.
-- Does not transpose each chord in relation to the key, so chords will be incorrectly notated as enharmonic equivalents.
+- Does not guess the key, it will assume that no accidentals in the chords means no accidentals in the key.
+- Does not transpose each chord in relation to the key, so chords may be notated as enharmonic equivalents.
 - Does not change the accidental when transposing from a key with sharps to a key with flats and vice versa.
 - Does not identify and process double accidentals such as double-sharps or double-flats.
 
-Note that most of those limitations do not affect the playability of the resulting chords, just the formal correction of the notation.
+Note that most of those limitations do not affect the playability of the resulting chords, just the notational correction.
